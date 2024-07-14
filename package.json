@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/Guill49/Notas#readme",
   "dependencies": {
+    "express": "^4.19.2",
     "Express": "^3.0.1"
-  },
-  "devDependencies": {}
+  }
 }
