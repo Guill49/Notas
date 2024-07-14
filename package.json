@@ -1,17 +1,8 @@
 {
   "name": "notas",
   "version": "1.0.0",
-<<<<<<< HEAD
-  "description": "casoPractico",
-  "main": "app.js",
-  "dependencies": {
-    "Express": "^3.0.1"
-  },
-  "devDependencies": {},
-=======
   "description": "casoPractico1",
   "main": "app.js",
->>>>>>> ce2d4817fb445028343809415b68b2411038238f
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,28 +12,14 @@
   },
   "keywords": [
     "HTML",
-<<<<<<< HEAD
     "Express",
     "Node.js",
     "JavaScript"
-=======
-    "CSS",
-    "Node.js",
-    "JavaScript",
-    "Express"
->>>>>>> ce2d4817fb445028343809415b68b2411038238f
   ],
   "author": "Guillermo Delgado",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Guill49/Notas/issues"
   },
-<<<<<<< HEAD
   "homepage": "https://github.com/Guill49/Notas#readme"
-=======
-  "homepage": "https://github.com/Guill49/Notas#readme",
-  "dependencies": {
-    "Express": "^3.0.1"
-  }
->>>>>>> ce2d4817fb445028343809415b68b2411038238f
 }
