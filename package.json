@@ -1,7 +1,7 @@
 {
   "name": "y",
   "version": "1.0.0",
-  "description": "casoPractico1",
+  "description": "caso1",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,19 +11,15 @@
     "url": "git+https://github.com/Guill49/Notas.git"
   },
   "keywords": [
-    "HTML",
     "Express",
-    "Node.js",
-    "JavaScript"
+    "JavaScript",
+    "HTML",
+    "Node.js"
   ],
-  "author": "Guillermo Delgado",
+  "author": "Guillermo-Delgado",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Guill49/Notas/issues"
   },
-  "homepage": "https://github.com/Guill49/Notas#readme",
-  "dependencies": {
-    "express": "^4.19.2",
-    "Express": "^3.0.1"
-  }
+  "homepage": "https://github.com/Guill49/Notas#readme"
 }

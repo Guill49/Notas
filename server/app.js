@@ -1,19 +1,14 @@
 const express = require('express');
-const bodyParser = require('body-parser');
-const path = require('path');
-const notesRoutes = require('./routes/notes');
 const app = express();
 const PORT = 3000;
 
-app.use(bodyParser.json());
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.json());
+app.use(express.static('public'));
 
-//ruta de notes.js
-app.use('/api/notes', notesRoutes);
 
+const notesRouter = require('./routes/notes');
+app.use('/api/notes', notesRouter);
 
 app.listen(PORT, () => {
-    console.log('Servidor corriendo en http://localhost:' + PORT);
-
+  console.log(`Server is running on http://localhost:`+PORT);
 });
-
