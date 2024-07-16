@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // crear nueva nota
-    createNoteBtn.addEventListener('click', () =>{
+     createNoteBtn.addEventListener('click', () =>{
         const newData ={
             title: 'Nueva nota',
             content: 'contenido de la nueva nota',
