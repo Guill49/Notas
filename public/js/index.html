@@ -10,16 +10,26 @@
 
 <body>
     <header>
-        <h1>Gestion notas</h1>
+        <h1>Crear notas</h1>
     </header>
-    <main>
-        <section id="notesSection">
-            <h2>Notas</h2>
-            <div id="notesContainer">
-            </div>
-            <button id="create-Note">Crear Nota</button>
-            <button id="getAllNotes">Obtener todas las notas</button>
-        </section>
+    <form action="/create-Note" method="post">
+
+        <label for = "id"> ID</label>
+        <input type="text" id="id" name="id">
+        <label for = "title"> TITLE</label>
+        <input type="text" id="title" name="title">
+
+        <label for = "content">CONTENT</label>
+        <input type="text" id="content" name="content">
+
+        <label for = "tags"> TAGS</label>
+        <input type="text" id="tags" name="tags">
+        <button action ="/"></button>
+        
+    </form>
+
+     <button id="getAllNotes">Obtener todas las notas</button>
+    </section>
     </main>
     <script src="js/main.js"></script>
 </body>
